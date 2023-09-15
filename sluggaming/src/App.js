@@ -27,7 +27,7 @@ function App() {
           <Route path='/teams' element={<Teams />} />
           <Route path="*" element={<NoPage />} />
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </BrowserRouter>
     </div>
   );
