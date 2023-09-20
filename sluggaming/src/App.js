@@ -10,6 +10,7 @@ import Staff from './pages/Staff';
 import Contact from './pages/Contact'
 import Recruitment from './pages/Recruitment'
 import Teams from './pages/Teams';
+import Achievements from './pages/Achievements';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path='/staff' element={<Staff />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/recruitment' element={<Recruitment />} />
+          <Route path='/achievements' element={<Achievements />} />
           <Route path='/teams' element={<Teams />} />
           <Route path="*" element={<NoPage />} />
         </Routes>
