@@ -8,11 +8,11 @@ const Recruitment = () => {
         <div className='flex justify-center text-[60px] text-[#00588F]'>
           Recruitment
         </div>
-        <div className='flex justify-center mt-[-10px]'>
+        <div className='flex justify-center mt-[-10px] max-[1100px]:px-[50px]'>
           <img src={require('../images/Achivements Page/Yellow Line.png')} alt='Yellow Line' loading="lazy" />
         </div>
       </section>
-      <section id='Requirements' className='px-[215px] pt-[50px] pb-[50px]'>
+      <section id='Requirements' className='min-[1100px]:px-[215px] px-[50px] pt-[50px] pb-[50px]'>
         <div className='text-black text-[40px]'>
           Requirements
         </div>
@@ -32,7 +32,7 @@ const Recruitment = () => {
           </ul>
         </ul>
       </section>
-      <section id='Application Process' className='px-[215px] pb-[50px]'>
+      <section id='Application Process' className='min-[1100px]:px-[215px] px-[50px] pb-[50px]'>
         <div className='text-black text-[40px]'>
           Application Process
         </div>
@@ -51,7 +51,7 @@ const Recruitment = () => {
           <li>A final roster will be finalized before the season begins.</li>
         </ul>
       </section>
-      <section id='Perks of Collegiate Player' className='px-[215px] pb-[50px]'>
+      <section id='Perks of Collegiate Player' className='min-[1100px]:px-[215px] px-[50px] pb-[50px]'>
         <div className='text-black text-[40px]'>
           Perks of Collegiate Player
         </div>
@@ -66,7 +66,7 @@ const Recruitment = () => {
           <li>Extra Entry in Giveaways</li>
         </ul>
       </section>
-      <section id='Achievements' className='px-[215px] pb-[150px]'>
+      <section id='Achievements' className='min-[1100px]:px-[215px] px-[50px] pb-[150px]'>
         <div className='text-black text-[40px]'>
           Achievements
         </div>
@@ -74,7 +74,7 @@ const Recruitment = () => {
           Check out our team's awesome achievements – from epic wins to incredible comebacks, our players have shown true gaming prowess and teamwork that's at the heart of Slug Gaming!
         </div>
         <div className='text-white pt-[50px]'>
-          <Link to={'/achievements'} className='bg-[#00588F] p-[33px] rounded-3xl'>
+          <Link to={'/achievements'} className='bg-[#00588F] min-[1100px]:p-[33px] px-[10px] py-[33px] rounded-3xl min-[1100px]:text-[21px] text-[12px]'>
             CLICK HERE TO VIEW TEAM ACHIEVEMENTS
           </Link>
         </div>
