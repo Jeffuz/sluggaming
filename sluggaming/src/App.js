@@ -11,6 +11,7 @@ import Contact from './pages/Contact'
 import Recruitment from './pages/Recruitment'
 import Teams from './pages/Teams';
 import Achievements from './pages/Achievements';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
 
       <BrowserRouter>
         <Navbar />
+        <ScrollToTop />
         <Routes>
           <Route index element={<Home />} />
           <Route path='/about' element={<About />} />
