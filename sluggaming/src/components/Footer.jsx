@@ -4,19 +4,19 @@ import { FaXTwitter, FaTiktok, FaInstagram, FaDiscord } from "react-icons/fa6";
 
 const Footer = () => {
     return (
-        <footer className='bg-[#00588F] py-1'>
+        <footer className='bg-[#00588F] py-1 font-Montserrat'>
             <div class="container mx-auto px-4">
                 <div class="my-8 flex flex-col md:flex-row items-center justify-between">
                     <div class="flex items-center">
                         <img src={require('../images/Footer Component/SlugLogo.png')} alt="Slug Gaming Logo" class="w-32 h-30 mr-2"></img>
                         <div class="text-white">
-                            <p class="text-2xl font-bold">Slug Gaming</p>
-                            <p class="text-lg">UC Santa Cruz</p>
-                            <p class="text-sm">EST. 2017</p>
+                            <p class="text-2xl font-bold ">Slug Gaming</p>
+                            <p class="text-lg ">UC Santa Cruz</p>
+                            <p class="text-sm">EST. 2014</p>
                         </div>
                     </div>
                     <div class="text-white">
-                        <p class="text-sm mb-3 font-bold md:pt-0 pt-6">Connect With Us</p>
+                        <p class="text-sm mb-3 font-bold md:pt-0 pt-6 ">Connect With Us</p>
                         <div class="flex gap-x-4 items-center">
                             <a href="https://www.youtube.com/@sluggaming114" class="text-white">
                                 <AiFillYoutube className='w-8 h-8' />
