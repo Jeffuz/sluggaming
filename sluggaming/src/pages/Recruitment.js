@@ -12,7 +12,7 @@ const Recruitment = () => {
           <img src={require('../images/Achivements Page/Yellow Line.png')} alt='Yellow Line' loading="lazy" />
         </div>
         <div className='min-[1100px]:px-[215px] px-[50px] text-[25px] pt-[50px]'>
-        Slug Esports is always looking out for new talent to join our teams for our collegiate games! If you are interested, here’s some basic information to help make this process easier.
+          Slug Esports is always looking out for new talent to join our teams for our collegiate games! If you are interested, here’s some basic information to help make this process easier.
         </div>
       </section>
       <section id='Requirements' className='min-[1100px]:px-[215px] px-[50px] pt-[50px] pb-[50px]'>
@@ -26,11 +26,11 @@ const Recruitment = () => {
           </ul>
           <li>Minimum Rank for each game: (Peak of last season)</li>
           <ul className='list-disc list-inside pl-[20px]'>
-            <li>League of Legends: Platinum</li>
+            <li>League of Legends: Diamond</li>
             <li>Valorant: Immortal</li>
             <li>Overwatch: Grandmaster</li>
             <li>Apex Legends: Gold</li>
-            <li>Rocket League: </li>
+            <li>Rocket League: Diamond</li>
             <li>Call of Duty: None</li>
           </ul>
         </ul>
