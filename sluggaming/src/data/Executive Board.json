@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Kimberley W.",
+        "role": "President",
+        "location": "Santa Cruz, CA",
+        "image": "Kimberley W.png",
+        "username": "Heyitsblinded",
+        "pronouns": "(She/Her)",
+        "content": "1"
+    },
+    {
+        "id": 2,
+        "name": "Michelle W.",
+        "role": "Vice President",
+        "location": "Diamond Bar, CA",
+        "image": "Michelle W.png",
+        "username": "Bel",
+        "pronouns": "(She/Her)",
+        "content": "1"
+    },
+    {
+        "id": 3,
+        "name": "Hailey G.",
+        "role": "Vice President",
+        "location": "1",
+        "image": "Hailey G.png",
+        "username": "hailstarz",
+        "pronouns": "(She/Her)",
+        "content": "1"
+    }
+]
