@@ -11,7 +11,8 @@ const Achievements = () => {
           <img src={require('../images/Achivements Page/Yellow Line.png')} alt='Yellow Line' loading="lazy" />
         </div>
         <div className='min-[1100px]:px-[215px] px-[50px] text-[25px] pt-[50px]'>
-          Step into the world of Slug Gaming's triumphs – where victories, comebacks, and team spirit paint the picture of our gaming excellence!        </div>
+          Step into the world of Slug Gaming's triumphs – where victories, comebacks, and team spirit paint the picture of our gaming excellence!
+        </div>
       </section>
       <section id='Games' className='pt-[50px]'>
         <div className='grid grid-cols-2 min-[1100px]:gap-x-[300px] min-[1100px]:gap-y-[100px] gap-4 max-[1100px]:grid-cols-1 min-[1100px]:px-[215px] px-[50px]'>
