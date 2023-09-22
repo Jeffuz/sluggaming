@@ -17,14 +17,16 @@ const Staff = () => {
         <div className='min-[1100px]:px-[215px] px-[50px] text-[25px] pt-[30px] text-center'>
           Overseeing the backbone of Slug Gaming, the Executive Board arranges club meetings, sign-offs on official paperwork, and manages all the background tasks needed to keep the club running.
         </div>
-        <div>
-          {executiveBoardData.map((staffMember) => (
-            <StaffCard key={staffMember.id} {...staffMember} />
-          ))}
+        <div className='container mx-auto py-24 px-8'>
+          <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6'>
+            {executiveBoardData.map((staffMember) => (
+              <StaffCard key={staffMember.id} {...staffMember} />
+            ))}
+          </div>
         </div>
       </section>
       <section id='Esports Director'>
-        <div className='flex justify-center min-[1100px]:text-[60px] text-[50px] text-[#00588F]'>
+        <div className='flex justify-center min-[1100px]:text-[60px] text-[50px] text-[#00588F] pt-[50px]'>
           Esports Director
         </div>
         <div className='flex justify-center mt-[-10px] max-[1100px]:px-[50px] max-[1100px]:pt-[20px]'>
@@ -33,14 +35,16 @@ const Staff = () => {
         <div className='min-[1100px]:px-[215px] px-[50px] text-[25px] pt-[30px] text-center'>
           Working hard for our competitive teams, Esports Directors work with our variety of gaming teams to organize scrimmages, handle tournament schedules, and ensure success for our Esports scene.
         </div>
-        <div>
-          {esportsDirectorData.map((staffMember) => (
-            <StaffCard key={staffMember.id} {...staffMember} />
-          ))}
+        <div className='container mx-auto py-24 px-8'>
+          <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6'>
+            {esportsDirectorData.map((staffMember) => (
+              <StaffCard key={staffMember.id} {...staffMember} />
+            ))}
+          </div>
         </div>
       </section>
-      <section id='Team Leads'>
-        <div className='flex justify-center min-[1100px]:text-[60px] text-[50px] text-[#00588F]'>
+      <section id='Team Leads' className='pb-[50px]'>
+        <div className='flex justify-center min-[1100px]:text-[60px] text-[50px] text-[#00588F] pt-[50px]'>
           Team Leads
         </div>
         <div className='flex justify-center mt-[-10px] max-[1100px]:px-[50px] max-[1100px]:pt-[20px]'>
@@ -48,10 +52,12 @@ const Staff = () => {
         </div>
         <div className='min-[1100px]:px-[215px] px-[50px] text-[25px] pt-[30px] text-center'>
           Dedicated to fostering a thriving gaming community, Team Leads work to keep the community informed on the Esports scene through live streams, social media updates, and engaging social gaming nights.        </div>
-        <div>
-          {teamLeadsData.map((staffMember) => (
-            <StaffCard key={staffMember.id} {...staffMember} />
-          ))}
+        <div className='container mx-auto py-24 px-8'>
+          <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6'>
+            {teamLeadsData.map((staffMember) => (
+              <StaffCard key={staffMember.id} {...staffMember} />
+            ))}
+          </div>
         </div>
       </section>
     </div>
