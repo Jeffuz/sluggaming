@@ -3,11 +3,12 @@
         "id": 11,
         "name": "Sam M.",
         "role": "Social Media",
-        "location": "1",
+        "location": "Daly City, CA",
         "image": "Sam M.png",
         "username": "Cynthk",
         "pronouns": "(She/Her)",
-        "content": "1"
+        "content": "Heya! My name is Sam or \"Dior\", I am slug gaming's social media manager and part time League of Legends caster. I am a Legal Studies major and Politics minor and will be entering my Senior year.  I enjoy playing board games and other TTRPGS, and have been in love with DnD for several years. I'm also an aspiring voice actress having worked in a few indie games.",
+        "linkedin": "https://www.linkedin.com/in/smagdamo/"
     },
     {
         "id": 12,
@@ -17,7 +18,7 @@
         "image": "Nataniel J.png",
         "username": "Novah",
         "pronouns": "(He/Him)",
-        "content": "1"
+        "content": ""
     },
     {
         "id": 13,
@@ -27,6 +28,8 @@
         "image": "Jeff Z.png",
         "username": "Jeffuz",
         "pronouns": "(He/Him)",
-        "content": "1"
+        "content": "Jeff \"Jeffuz\" Zhang (He/Him) is an upcoming 4th year studying Computer Engineering. He will be leading the production team and working on web/software development for the club. During his free time, Jeff enjoys playing League/Valorant, coding, and watching movies/shows.",
+        "linkedin": "https://www.linkedin.com/in/jeffzhang0049/",
+        "instagram": "https://www.instagram.com/jeffu_z/"
     }
 ]

@@ -5,8 +5,6 @@ const Home = () => {
     return (
         <div className=''>
             <img src={require('../images/Home Page/Banner.png')} alt='home-page-banner' className='hidden md:block' loading="lazy"></img>
-            <img src={require('../images/Home Page/Banner md.png')} alt='home-page-banner' className='pt-[85px] block md:hidden' loading="lazy"></img>
-            <Panel_1 />
         </div>
     )
 }

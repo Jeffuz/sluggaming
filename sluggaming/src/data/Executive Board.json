@@ -7,7 +7,7 @@
         "image": "Kimberley W.png",
         "username": "Heyitsblinded",
         "pronouns": "(She/Her)",
-        "content": "1"
+        "content": ""
     },
     {
         "id": 2,
@@ -17,16 +17,16 @@
         "image": "Michelle W.png",
         "username": "Bel",
         "pronouns": "(She/Her)",
-        "content": "1"
+        "content": ""
     },
     {
         "id": 3,
         "name": "Hailey G.",
         "role": "Vice President",
-        "location": "1",
+        "location": "Temporary",
         "image": "Hailey G.png",
         "username": "hailstarz",
         "pronouns": "(She/Her)",
-        "content": "1"
+        "content": ""
     }
 ]

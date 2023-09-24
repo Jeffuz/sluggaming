@@ -13,7 +13,7 @@ const Navbar = () => {
 
     let [open, setOpen] = useState(false);
     return (
-        <div className='fixed w-full shadow-2xl'>
+        <div className='fixed w-full shadow-2xl z-10'>
             <div className='bg-[#00588F] items-center justify-between min-[1100px]:flex min-[1100px]:px-10 px-7'>
                 <div className='font-bold text-[32px] tracking-[0.96px] cursor-pointer flex items-center text-[#FFCC04] font-Montserrat uppercase'>
                     <Link to={"/"} className='mr-[20px]'>
