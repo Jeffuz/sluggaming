@@ -18,21 +18,20 @@ function App() {
 
     <div className="App">
 
-      <BrowserRouter>
-        <Navbar />
-        <ScrollToTop />
-        <Routes>
-          <Route index element={<Home />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/staff' element={<Staff />} />
-          <Route path='/contact' element={<Contact />} />
-          <Route path='/recruitment' element={<Recruitment />} />
-          <Route path='/achievements' element={<Achievements />} />
-          <Route path='/teams' element={<Teams />} />
-          <Route path="*" element={<NoPage />} />
-        </Routes>
-        <Footer />
-      </BrowserRouter>
+      <Navbar />
+      <ScrollToTop />
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/staff' element={<Staff />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/recruitment' element={<Recruitment />} />
+        <Route path='/achievements' element={<Achievements />} />
+        <Route path='/teams' element={<Teams />} />
+        <Route path="*" element={<NoPage />} />
+      </Routes>
+      <Footer />
+
     </div>
   );
 }

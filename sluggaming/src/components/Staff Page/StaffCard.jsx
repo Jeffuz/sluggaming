@@ -2,10 +2,10 @@ import React from 'react'
 // import ReactCardFlip from 'react-card-flip'
 // import { useState } from 'react';
 import { Link } from 'react-router-dom'
-import { FaLinkedin, FaInstagram, FaXTwitter, FaTwitch } from "react-icons/fa6";
+import { FaLinkedin, FaInstagram, FaXTwitter, FaTwitch, FaGithub, FaTiktok } from "react-icons/fa6";
 import { BsPersonCircle } from "react-icons/bs";
 
-const StaffCard = ({ name, role, location, image, username, pronouns, content, linkedin, instagram, twitter, personal, twitch }) => {
+const StaffCard = ({ name, role, location, image, username, pronouns, content, linkedin, instagram, twitter, personal, twitch, github, tiktok }) => {
   // const [isFlipped, setIsFlipped] = useState(false);
 
   // function flipCard() {
@@ -82,6 +82,16 @@ const StaffCard = ({ name, role, location, image, username, pronouns, content, l
             {twitch && (
               <Link to={twitch} className="text-white">
                 <FaTwitch className='w-8 h-8' />
+              </Link>
+            )}
+            {github && (
+              <Link to={github} className="text-white">
+                <FaGithub className='w-8 h-8' />
+              </Link>
+            )}
+            {tiktok && (
+              <Link to={tiktok} className="text-white">
+                <FaTiktok className='w-8 h-8' />
               </Link>
             )}
           </div>

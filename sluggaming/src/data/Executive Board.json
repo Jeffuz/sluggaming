@@ -3,11 +3,15 @@
         "id": 1,
         "name": "Kimberley W.",
         "role": "President",
-        "location": "Santa Cruz, CA",
+        "location": "San Francisco, CA",
         "image": "Kimberley W.png",
         "username": "Heyitsblinded",
         "pronouns": "(She/Her)",
-        "content": ""
+        "content": "Kimberley “Blinded” Wu (she/her) is grateful and excited to be leading the charge for Slug Gaming this year. While she’s not working on her computer science and film studies, Kimberley enjoys playing relaxing games (The Sims 4, Minecraft), playing piano and viola, and learning about movies, tv, and musicals.",
+        "linkedin": "https://www.linkedin.com/in/kimberley-wu-a7727b228/",
+        "twitter": "https://twitter.com/HeyItsBlinded",
+        "twitch": "https://www.twitch.tv/heyitsblinded",
+        "tiktok": "https://www.tiktok.com/@heyitsblinded"
     },
     {
         "id": 2,
