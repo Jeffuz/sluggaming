@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Slug-Gaming-Website/static/css/main.5e964498.css",
-    "main.js": "/Slug-Gaming-Website/static/js/main.e62e559a.js",
+    "main.js": "/Slug-Gaming-Website/static/js/main.58828ffc.js",
     "static/js/787.68248a2b.chunk.js": "/Slug-Gaming-Website/static/js/787.68248a2b.chunk.js",
     "static/media/Banner.png": "/Slug-Gaming-Website/static/media/Banner.7ab8b6e759aa92cddb8d.png",
     "static/media/DIsplay.png": "/Slug-Gaming-Website/static/media/DIsplay.e1b0357fe7223e76ff55.png",
@@ -22,11 +22,11 @@
     "static/media/SlugLogo.png": "/Slug-Gaming-Website/static/media/SlugLogo.5b0cb58456f4aa7cb25e.png",
     "index.html": "/Slug-Gaming-Website/index.html",
     "main.5e964498.css.map": "/Slug-Gaming-Website/static/css/main.5e964498.css.map",
-    "main.e62e559a.js.map": "/Slug-Gaming-Website/static/js/main.e62e559a.js.map",
+    "main.58828ffc.js.map": "/Slug-Gaming-Website/static/js/main.58828ffc.js.map",
     "787.68248a2b.chunk.js.map": "/Slug-Gaming-Website/static/js/787.68248a2b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5e964498.css",
-    "static/js/main.e62e559a.js"
+    "static/js/main.58828ffc.js"
   ]
 }
