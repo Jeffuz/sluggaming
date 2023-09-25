@@ -1,0 +1,59 @@
+[
+    {
+        "id": "Melodia",
+        "ign": "Melodia",
+        "name": "Temp",
+        "role": "Top",
+        "major": "Temp",
+        "hometown": "Temp"
+    },
+    {
+        "id": "MOONMAN",
+        "ign": "MOONMAN",
+        "name": "Temp",
+        "role": "Jungle",
+        "major": "Temp",
+        "hometown": "Temp"
+    },
+    {
+        "id": "Echidna",
+        "ign": "Echidna",
+        "name": "Temp",
+        "role": "Mid",
+        "major": "Temp",
+        "hometown": "Temp"
+    },
+    {
+        "id": "kinuryu",
+        "ign": "kinuryu",
+        "name": "Temp",
+        "role": "ADC",
+        "major": "Temp",
+        "hometown": "Temp"
+    },
+    {
+        "id": "Yunjia",
+        "ign": "YunJia",
+        "name": "Gabriel Li",
+        "role": "Support",
+        "major": "Computer Science: Computer Game Design",
+        "hometown": "Chengdu, China",
+        "image": "Yunjia.png"
+    },
+    {
+        "id": "DashZero",
+        "ign": "DashZero",
+        "name": "Temp",
+        "role": "Sub",
+        "major": "Temp",
+        "hometown": "Temp"
+    },
+    {
+        "id": "Poopy",
+        "ign": "Poopy",
+        "name": "Temp",
+        "role": "Sub",
+        "major": "Temp",
+        "hometown": "Temp"
+    }
+]
