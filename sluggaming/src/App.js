@@ -14,6 +14,10 @@ import Achievements from './pages/Achievements';
 import ScrollToTop from './components/ScrollToTop';
 import Apex from './pages/games/Apex';
 import COD from './pages/games/COD';
+import League from './pages/games/League';
+import Overwatch from './pages/games/Overwatch';
+import Rocket from './pages/games/Rocket';
+import Valorant from './pages/games/Valorant';
 
 function App() {
   return (
@@ -32,6 +36,10 @@ function App() {
         <Route path='*' element={<NoPage />} />
         <Route path='/teams/apex_legends' element={<Apex />} />
         <Route path='/teams/call_of_duty' element={<COD />} />
+        <Route path='/teams/league_of_legends' element={<League />} />
+        <Route path='/teams/overwatch' element={<Overwatch />} />
+        <Route path='/teams/rocket_league' element={<Rocket />} />
+        <Route path='/teams/valorant' element={<Valorant />} />
       </Routes>
       <Footer />
     </div>
