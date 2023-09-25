@@ -12,12 +12,13 @@ import Recruitment from './pages/Recruitment'
 import Teams from './pages/Teams';
 import Achievements from './pages/Achievements';
 import ScrollToTop from './components/ScrollToTop';
+import Apex from './pages/games/Apex';
+import COD from './pages/games/COD';
 
 function App() {
   return (
 
     <div className="App">
-
       <Navbar />
       <ScrollToTop />
       <Routes>
@@ -28,10 +29,11 @@ function App() {
         <Route path='/recruitment' element={<Recruitment />} />
         <Route path='/achievements' element={<Achievements />} />
         <Route path='/teams' element={<Teams />} />
-        <Route path="*" element={<NoPage />} />
+        <Route path='*' element={<NoPage />} />
+        <Route path='/teams/apex_legends' element={<Apex />} />
+        <Route path='/teams/call_of_duty' element={<COD />} />
       </Routes>
       <Footer />
-
     </div>
   );
 }
