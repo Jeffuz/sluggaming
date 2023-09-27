@@ -2,18 +2,18 @@
     {
         "id": "Melodia",
         "ign": "Melodia",
-        "name": "Temp",
+        "name": "Ming Qi",
         "role": "Top",
-        "major": "Temp",
-        "hometown": "Temp"
+        "major": "Computer Engineering",
+        "hometown": "Shanghai"
     },
     {
         "id": "MOONMAN",
         "ign": "MOONMAN",
-        "name": "Temp",
+        "name": "Dong Bei",
         "role": "Jungle",
-        "major": "Temp",
-        "hometown": "Temp"
+        "major": "Computer Science: Computer Game Design",
+        "hometown": "San jose, CA"
     },
     {
         "id": "Echidna",
@@ -26,10 +26,10 @@
     {
         "id": "kinuryu",
         "ign": "kinuryu",
-        "name": "Temp",
+        "name": "Brian Jin",
         "role": "ADC",
-        "major": "Temp",
-        "hometown": "Temp"
+        "major": "Computer Science: Computer Game Design",
+        "hometown": "San jose, CA"
     },
     {
         "id": "Yunjia",
@@ -55,5 +55,13 @@
         "role": "Sub",
         "major": "Temp",
         "hometown": "Temp"
+    },
+    {
+        "id": "BananaNations",
+        "ign": "BananaNations",
+        "name": "Elkin",
+        "role": "Coach",
+        "major": "Chemistry",
+        "hometown": "East Bay"
     }
 ]

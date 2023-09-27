@@ -20,29 +20,31 @@ import Rocket from './pages/games/Rocket';
 import Valorant from './pages/games/Valorant';
 
 function App() {
-  return (
 
-    <div className="App">
-      <Navbar />
-      <ScrollToTop />
-      <Routes>
-        <Route index element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/staff' element={<Staff />} />
-        <Route path='/contact' element={<Contact />} />
-        <Route path='/recruitment' element={<Recruitment />} />
-        <Route path='/achievements' element={<Achievements />} />
-        <Route path='/teams' element={<Teams />} />
-        <Route path='*' element={<NoPage />} />
-        <Route path='/teams/apex_legends' element={<Apex />} />
-        <Route path='/teams/call_of_duty' element={<COD />} />
-        <Route path='/teams/league_of_legends' element={<League />} />
-        <Route path='/teams/overwatch' element={<Overwatch />} />
-        <Route path='/teams/rocket_league' element={<Rocket />} />
-        <Route path='/teams/valorant' element={<Valorant />} />
-      </Routes>
-      <Footer />
-    </div>
+  return (
+    <BrowserRouter>
+      <div className="App">
+        <Navbar />
+        <ScrollToTop />
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/staff' element={<Staff />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/recruitment' element={<Recruitment />} />
+          <Route path='/achievements' element={<Achievements />} />
+          <Route path='/teams' element={<Teams />} />
+          <Route path='*' element={<NoPage />} />
+          <Route path='/teams/apex_legends' element={<Apex />} />
+          <Route path='/teams/call_of_duty' element={<COD />} />
+          <Route path='/teams/league_of_legends' element={<League />} />
+          <Route path='/teams/overwatch' element={<Overwatch />} />
+          <Route path='/teams/rocket_league' element={<Rocket />} />
+          <Route path='/teams/valorant' element={<Valorant />} />
+        </Routes>
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 
