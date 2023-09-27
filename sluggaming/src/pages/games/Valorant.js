@@ -1,4 +1,6 @@
 import React from 'react'
+import valorantTeamData from '../../data/Valorant Team.json';
+import TeamCard from '../../components/Teams Page/TeamCard';
 
 const Valorant = () => {
     return (
@@ -30,9 +32,9 @@ const Valorant = () => {
                 </div>
                 <div className='container mx-auto py-24 px-8 '>
                     <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6'>
-                        {/* {leagueTeamData.map((teamMember) => (
+                        {valorantTeamData.map((teamMember) => (
                             <TeamCard key={teamMember.id} {...teamMember} />
-                        ))} */}
+                        ))}
                     </div>
                 </div>
             </section>
