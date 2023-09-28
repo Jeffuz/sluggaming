@@ -37,5 +37,4 @@ const TeamCard = ({ ign, name, role, major, hometown, image }) => {
     )
 }
 
-
 export default TeamCard
