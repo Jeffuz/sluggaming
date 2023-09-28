@@ -18,12 +18,13 @@
         "image": "Master Sheriff.png"
     },
     {
-        "id": "Echidna",
-        "ign": "Echidna",
-        "name": "Temp",
+        "id": "Echídna",
+        "ign": "Echídna",
+        "name": "William",
         "role": "Mid",
-        "major": "Temp",
-        "hometown": "Temp"
+        "major": "Economic's",
+        "hometown": "Santa Monica, CA",
+        "image": "Echídna.png"
     },
     {
         "id": "kinuryu",

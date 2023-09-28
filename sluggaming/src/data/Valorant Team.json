@@ -5,7 +5,8 @@
         "name": "Ashcon Kafaipour",
         "role": "Initiator",
         "major": "Computer Science",
-        "hometown": "San Jose, CA"
+        "hometown": "San Jose, CA",
+        "image": "UCSC ezky.png"
     },
     {
         "id": "Frxchy",
@@ -13,7 +14,8 @@
         "name": "Lucas Michellys",
         "role": "IGL/Controller",
         "major": "Computer Engineering",
-        "hometown": "San Diego, CA"
+        "hometown": "San Diego, CA",
+        "image": "Frxchy.png"
     },
     {
         "id": "ken leywin",
@@ -21,7 +23,8 @@
         "name": "Justin Rosales",
         "role": "Sentinel",
         "major": "Computer Science",
-        "hometown": "Cleveland, Ohio"
+        "hometown": "Cleveland, Ohio",
+        "image": "ken leywin.png"
     },
     {
         "id": "SORA",
@@ -29,7 +32,8 @@
         "name": "Aden Johnson",
         "role": "Duelist",
         "major": "Electrical Engineering",
-        "hometown": "Pukalani, Hawaii"
+        "hometown": "Pukalani, Hawaii",
+        "image":"SORA.png"
     },
     {
         "id": "CouncilJeans44",
@@ -37,7 +41,8 @@
         "name": "Samip Niraula",
         "role": "Initiator/Flex",
         "major": "Computer Science: Computer Game Design",
-        "hometown": "Woodland, CA"
+        "hometown": "Woodland, CA",
+        "image": "CouncilJeans44.png"
     },
     {
         "id": "iWin",
@@ -45,6 +50,7 @@
         "name": "Aryan Vora",
         "role": "Coach",
         "major": "Computer Science",
-        "hometown": "Fremont, CA"
+        "hometown": "Fremont, CA",
+        "image": "iWin.png"
     }
 ]
