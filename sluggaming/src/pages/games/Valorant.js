@@ -11,12 +11,14 @@ const Valorant = () => {
                         src={require(`../../images/Team Page/Esports Banner/Valorant Banner.png`)}
                         className="h-full object-cover"
                         loading="lazy"
+                        alt='Valorant Banner'
                     />
                 </div>
                 <div className='absolute pt-5'>
                     <img
                         src={require(`../../images/Team Page/Esports Banner/Valorant Logo.png`)}
                         loading="lazy"
+                        alt='Valorant Logo'
                     />
                 </div>
             </section>

@@ -9,12 +9,14 @@ const Apex = () => {
                         src={require(`../../images/Team Page/Esports Banner/Apex Banner.png`)}
                         className="h-full object-cover"
                         loading="lazy"
+                        alt="Apex Banner"
                     />
                 </div>
                 <div className='absolute pt-5'>
                     <img
                         src={require(`../../images/Team Page/Esports Banner/Apex Logo.png`)}
                         loading="lazy"
+                        alt='Apex Logo'
                     />
                 </div>
             </section>

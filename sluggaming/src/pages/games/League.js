@@ -11,12 +11,14 @@ const League = () => {
                         src={require(`../../images/Team Page/Esports Banner/LoL Banner.png`)}
                         className="h-full object-cover"
                         loading="lazy"
+                        alt='LoL Banner'
                     />
                 </div>
                 <div className='absolute pt-5'>
                     <img
                         src={require(`../../images/Team Page/Esports Banner/LoL Logo.png`)}
                         loading="lazy"
+                        alt='LoL Logo'
                     />
                 </div>
             </section>

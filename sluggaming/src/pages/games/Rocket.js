@@ -11,12 +11,14 @@ const Rocket = () => {
             src={require(`../../images/Team Page/Esports Banner/Rocket League Banner.png`)}
             className="h-full object-cover"
             loading="lazy"
+            alt='Rocket League Banner'
           />
         </div>
         <div className='absolute pt-5'>
           <img
             src={require(`../../images/Team Page/Esports Banner/Rocket League Logo.png`)}
             loading="lazy"
+            alt='Rocket League Logo'
           />
         </div>
       </section>

@@ -9,12 +9,14 @@ const Overwatch = () => {
             src={require(`../../images/Team Page/Esports Banner/Overwatch Banner.png`)}
             className="h-full object-cover"
             loading="lazy"
+            alt='Overwatch Banner'
           />
         </div>
         <div className='absolute pt-5'>
           <img
             src={require(`../../images/Team Page/Esports Banner/Overwatch Logo.png`)}
             loading="lazy"
+            alt='Overwatch Logo'
           />
         </div>
       </section>
