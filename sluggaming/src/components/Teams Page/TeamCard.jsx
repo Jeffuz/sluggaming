@@ -4,7 +4,9 @@ const TeamCard = ({ ign, name, role, major, hometown, image }) => {
     return (
         <div className="flex justify-center flex-col">
             <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow  hover:shadow-gray/30 rounded-[25px]">
-                <img src={require(`../../images/Team Page/Team Members/Yunjia.png`)} alt={name} loading="lazy" className="object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" width="745" height='676' />
+                {image && (
+                    <img src={require(`../../images/Team Page/Team Members/${image}`)} alt={name} loading="lazy" className="object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" width="745" height='676' />
+                )}
                 {/* Shadows */}
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-gray group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                 <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
@@ -17,8 +19,10 @@ const TeamCard = ({ ign, name, role, major, hometown, image }) => {
                     <div className='text-3xl text-[#FFCC04] mb-3'>
                         {ign}
                     </div>
-                    <div className='text-white text-2xl pt-1'>
-                        {role}
+                    <div>
+                        {role && (
+                            <div className='text-white text-2xl pt-1'>{role}</div>
+                        )}
                     </div>
                     <div className='text-white text-2xl flex items-center pt-1'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" className='mr-2'>

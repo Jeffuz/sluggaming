@@ -38,5 +38,13 @@
         "role": "Initiator/Flex",
         "major": "Computer Science: Computer Game Design",
         "hometown": "Woodland, CA"
+    },
+    {
+        "id": "iWin",
+        "ign": "iWin",
+        "name": "Aryan Vora",
+        "role": "Coach",
+        "major": "Computer Science",
+        "hometown": "Fremont, CA"
     }
 ]

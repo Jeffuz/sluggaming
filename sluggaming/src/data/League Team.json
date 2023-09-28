@@ -5,15 +5,17 @@
         "name": "Ming Qi",
         "role": "Top",
         "major": "Computer Engineering",
-        "hometown": "Shanghai"
+        "hometown": "Shanghai, China",
+        "image": "Melodia.png"
     },
     {
         "id": "MOONMAN",
-        "ign": "MOONMAN",
-        "name": "Dong Bei",
+        "ign": "Master Sheriff",
+        "name": "Qihe Wang",
         "role": "Jungle",
         "major": "Computer Science: Computer Game Design",
-        "hometown": "San jose, CA"
+        "hometown": "San jose, CA",
+        "image": "Master Sheriff.png"
     },
     {
         "id": "Echidna",
@@ -29,7 +31,8 @@
         "name": "Brian Jin",
         "role": "ADC",
         "major": "Computer Science: Computer Game Design",
-        "hometown": "San jose, CA"
+        "hometown": "San jose, CA",
+        "image": "kinuryu.png"
     },
     {
         "id": "Yunjia",
@@ -42,19 +45,21 @@
     },
     {
         "id": "DashZero",
-        "ign": "DashZero",
-        "name": "Temp",
+        "ign": "Dashzerø",
+        "name": "Nguyen Vu",
         "role": "Sub",
-        "major": "Temp",
-        "hometown": "Temp"
+        "major": "Computer Science: Computer Game Design",
+        "hometown": "Ho Chi Minh, Vietnam",
+        "image": "Dashzero.png"
     },
     {
-        "id": "Poopy",
-        "ign": "Poopy",
-        "name": "Temp",
+        "id": "PoopyWorm",
+        "ign": "PoopyWorm",
+        "name": "Vincent Nguyen",
         "role": "Sub",
-        "major": "Temp",
-        "hometown": "Temp"
+        "major": "Technology and Information Management",
+        "hometown": "San Jose, CA",
+        "image": "PoopyWorm.png"
     },
     {
         "id": "BananaNations",
@@ -62,6 +67,16 @@
         "name": "Elkin",
         "role": "Coach",
         "major": "Chemistry",
-        "hometown": "East Bay"
+        "hometown": "East Bay",
+        "image": "Avery.png"
+    },
+    {
+        "id": "Jagolian",
+        "ign": "Jagolian",
+        "name": "Logan Levy",
+        "role": "Coach",
+        "major": "Biomolecular Engineering and Business Management Economics ",
+        "hometown": "San Diego, CA",
+        "image": "Jagolian.png"
     }
 ]
