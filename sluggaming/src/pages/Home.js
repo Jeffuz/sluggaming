@@ -3,9 +3,11 @@ import React from 'react'
 
 const Home = () => {
     return (
-        <div className=''>
-            <img src={require('../images/Home Page/Banner.png')} alt='home-page-banner' className='hidden md:block' loading="lazy"></img>
-        </div>
+        <section className=''>
+            <div className='Banner'>
+                <img src={require('../images/Home Page/Banner.png')} alt='home-page-banner' className='hidden md:block' loading="lazy"></img>
+            </div>
+        </section>
     )
 }
 
