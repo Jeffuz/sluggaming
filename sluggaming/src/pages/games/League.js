@@ -24,15 +24,15 @@ const League = () => {
             </section>
             <section className='pt-[275px] font-Montserrat'>
                 <div className='flex justify-center min-[1100px]:text-[60px] text-[50px] text-[#00588F] pt-[50px]'>
-                    Executive Board
+                    UCSC Black
                 </div>
                 <div className='flex justify-center mt-[-10px] max-[1100px]:px-[50px] max-[1100px]:pt-[20px]'>
                     <img src={require('../../images/Achivements Page/Yellow Line.png')} alt='Yellow Line' loading="lazy" />
                 </div>
                 <div className='min-[1100px]:px-[215px] px-[50px] text-[25px] pt-[30px] text-center'>
-                    Working hard for our competitive teams, Esports Directors work with our variety of gaming teams to organize scrimmages, handle tournament schedules, and ensure success for our Esports scene.
+                    University of California, Santa Cruz | League of Legends Varsity Team
                 </div>
-                <div className='container mx-auto py-24 px-8 '>
+                <div className='container mx-auto pt-10 pb-24 px-8 '>
                     <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6'>
                         {leagueTeamData.map((teamMember) => (
                             <TeamCard key={teamMember.id} {...teamMember} />

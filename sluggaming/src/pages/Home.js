@@ -3,11 +3,16 @@ import React from 'react'
 
 const Home = () => {
     return (
-        <section className=''>
-            <div className='Banner'>
-                <img src={require('../images/Home Page/Banner.png')} alt='home-page-banner' className='hidden md:block' loading="lazy"></img>
-            </div>
-        </section>
+        <div>
+            <section className=''>
+                <div className='Banner'>
+                    <img src={require('../images/Home Page/Banner.png')} alt='home-page-banner' className='hidden md:block' loading="lazy"></img>
+                </div>
+            </section>
+            <section>
+
+            </section>
+        </div>
     )
 }
 

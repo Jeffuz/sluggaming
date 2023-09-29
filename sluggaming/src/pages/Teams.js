@@ -28,12 +28,12 @@ const Teams = () => {
   ];
 
   const cardLink = [
-    "/teams/apex_legends",
-    "/teams/call_of_duty",
     "/teams/league_of_legends",
+    "/teams/valorant",
     "/teams/overwatch",
+    "/teams/apex_legends",
     "/teams/rocket_league",
-    "/teams/valorant"
+    "/teams/call_of_duty"
   ]
 
   const containerVariants = {
