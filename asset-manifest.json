@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sluggaming/static/css/main.93582169.css",
-    "main.js": "/sluggaming/static/js/main.37a2f47e.js",
+    "main.js": "/sluggaming/static/js/main.fc956e86.js",
     "static/js/787.68248a2b.chunk.js": "/sluggaming/static/js/787.68248a2b.chunk.js",
     "static/media/Banner.png": "/sluggaming/static/media/Banner.7ab8b6e759aa92cddb8d.png",
     "static/media/DIsplay.png": "/sluggaming/static/media/DIsplay.e1b0357fe7223e76ff55.png",
@@ -50,11 +50,11 @@
     "static/media/Overwatch Logo.png": "/sluggaming/static/media/Overwatch Logo.57ed94e8754a46a370d3.png",
     "index.html": "/sluggaming/index.html",
     "main.93582169.css.map": "/sluggaming/static/css/main.93582169.css.map",
-    "main.37a2f47e.js.map": "/sluggaming/static/js/main.37a2f47e.js.map",
+    "main.fc956e86.js.map": "/sluggaming/static/js/main.fc956e86.js.map",
     "787.68248a2b.chunk.js.map": "/sluggaming/static/js/787.68248a2b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.93582169.css",
-    "static/js/main.37a2f47e.js"
+    "static/js/main.fc956e86.js"
   ]
 }
