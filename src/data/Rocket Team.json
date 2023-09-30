@@ -1,0 +1,32 @@
+[
+    {
+        "id": "kade",
+        "ign": "kade",
+        "name": "Kade Muehr",
+        "major": "Business Management Economics",
+        "hometown": "Palm Springs, CA"
+    },
+    {
+        "id": "king",
+        "ign": "King",
+        "name": "Nick Di Lorenzo",
+        "major": "Computer Science: Computer Game Design",
+        "hometown": "San Pedro, CA"
+    },
+    {
+        "id": "Dudbard",
+        "ign": "Dudbard",
+        "name": "Xander Armatis",
+        "major": "Computer Science",
+        "hometown": "Brentwood, CA"
+    },
+    {
+        "id": "GreenCheeze",
+        "ign": "GreenCheeze",
+        "name": "Brian Nguyen",
+        "role": "Coach/Sub",
+        "major": "Computer Science",
+        "hometown": "San Jose, CA",
+        "image": "Brian N.png"
+    }
+]

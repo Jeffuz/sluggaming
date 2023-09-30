@@ -1,0 +1,40 @@
+[
+    {
+        "id": 11,
+        "name": "Sam M.",
+        "role": "Social Media",
+        "location": "Daly City, CA",
+        "image": "Sam M.png",
+        "username": "Cynthk",
+        "pronouns": "(She/Her)",
+        "content": "Heya! My name is Sam or \"Dior\", I am slug gaming's social media manager and part time League of Legends caster. I am a Legal Studies major and Politics minor and will be entering my Senior year.  I enjoy playing board games and other TTRPGS, and have been in love with DnD for several years. I'm also an aspiring voice actress having worked in a few indie games.",
+        "linkedin": "https://www.linkedin.com/in/smagdamo/"
+    },
+    {
+        "id": 12,
+        "name": "Nataniel J.",
+        "role": "Community Production",
+        "location": "Eastvale, CA",
+        "image": "Nataniel J.png",
+        "username": "Novah",
+        "pronouns": "(He/Him)",
+        "content": "Hey Everyone! I'm Nataniel Jayaseelan (He/Him) and I'm the Slug Gaming Community Production Manager. I'm currently a freshman in computer engineering at UCSC. During my free time, I love working on coding projects, my freelance web development business, or playing games like apex or valorant. Feel free to reach out to me!",
+        "linkedin": "https://www.linkedin.com/in/nataniel-jayaseelan-80977b223/",
+        "instagram": "https://www.instagram.com/justnatexh/",
+        "personal": "https://www.nj-web.com/",
+        "github": "https://github.com/Ironspidr"
+    },
+    {
+        "id": 13,
+        "name": "Jeff Z.",
+        "role": "Esports Production",
+        "location": "San Francisco, CA",
+        "image": "Jeff Z.png",
+        "username": "Jeffuz",
+        "pronouns": "(He/Him)",
+        "content": "Jeff \"Jeffuz\" Zhang (He/Him) is an upcoming 4th year studying Computer Engineering. He will be leading the production team and working on web/software development for the club. During his free time, Jeff enjoys playing League/Valorant, coding, and watching movies/shows.",
+        "linkedin": "https://www.linkedin.com/in/jeffzhang0049/",
+        "instagram": "https://www.instagram.com/jeffu_z/",
+        "twitch": "https://www.twitch.tv/j3ffuz"
+    }
+]
