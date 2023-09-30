@@ -73,7 +73,7 @@ const Teams = () => {
               >
                 {index === expandedIndex && (
                   <div className='h-full flex flex-col justify-end'>
-                    <div className='flex justify-center py-5'>
+                    <div className='flex justify-center py-12'>
                       <Link to={cardLink[index]} className='p-2 rounded-lg text-white bg-[#00588F]'>See More</Link>
                     </div>
                   </div>
