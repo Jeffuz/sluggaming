@@ -21,7 +21,7 @@ import Valorant from './pages/games/Valorant';
 
 function App() {
   return (
-    <BrowserRouter basename="/Slug-Gaming-Website">
+    <BrowserRouter basename="/sluggaming">
       <div className="App">
         <Navbar />
         <ScrollToTop />
