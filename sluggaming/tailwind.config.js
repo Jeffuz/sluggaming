@@ -5,8 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: {},
-    fontFamily:{
+    fontFamily: {
       Montserrat: ['Montserrat', 'sans-serif'],
+      'akira-expanded': ['Akira Expanded', 'sans'],
+      'kenyan-coffee': ['Kenyan Coffee', 'sans'],
     }
   },
   plugins: [],

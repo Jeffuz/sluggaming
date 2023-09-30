@@ -5,10 +5,19 @@ import Event_Panel from '../components/Home Panel/Event Panel'
 const Home = () => {
     return (
         <div>
-            <section className=''>
-                <div className='max-[1100px]:pt-[87px]' id='Banner'>
-                    <img src={require('../images/Home Page/Banner.png')} alt='home-page-banner' className='hidden md:block' loading="lazy" />
-                    <img src={require('../images/Home Page/Banner md.png')} alt='home-page-banner' className='block md:hidden' loading="lazy" />
+            <section>
+                <div className='max-[1100px]:pt-[87px] flex justify-center' id='Banner'>
+                    <div className='w-full min-[1305px]:h-[950px] h-[900px] overflow-hidden'>
+                        <img src={require('../images/Home Page/Base Banner.png')} alt='home-page-banner' className='h-full object-cover w-full' loading="lazy" />
+                    </div>
+                    <div className='absolute h-screen flex flex-col justify-center pt-5 px-10'>
+                        <div className='text-7xl text-white font-akira-expanded justify-center darker-drop-shadow'>
+                            UNITE, PLAY,<span className='text-[#FFCC04]'>&nbsp;CONQUER</span>.
+                        </div>
+                        <div className="text-4xl text-white font-kenyan-coffee flex justify-center darker-drop-shadow leading-[50px] tracking-wider">
+                            The Main Hub for Esports at UC Santa Cruz
+                        </div>
+                    </div>
                 </div>
             </section>
 
