@@ -18,12 +18,12 @@ const Teams = () => {
   }
 
   const cardImages = [
-    'games/league_of_legends.png',
-    'games/valorant.png',
-    'games/overwatch2.png',
-    'games/apex.png',
-    'games/rocket_league.png',
-    'games/call_of_duty.png',
+    '/league_of_legends.png',
+    '/valorant.png',
+    '/overwatch2.png',
+    '/apex.png',
+    '/rocket_league.png',
+    '/call_of_duty.png',
 
   ];
 
@@ -68,9 +68,10 @@ const Teams = () => {
                 transition={{ duration: 0.5 }}
                 onClick={() => handleCardClick(index)}
                 style={{
-                  backgroundImage: `url(${cardImages[index]})`,
+                  backgroundImage: `url(${process.env.PUBLIC_URL}${cardImages[index]})`,
                 }}
               >
+                {console.log(`Image URL: ${process.env.PUBLIC_URL}${cardImages[index]}`)} 
                 {index === expandedIndex && (
                   <div className='h-full flex flex-col justify-end'>
                     <div className='flex justify-center py-12'>
