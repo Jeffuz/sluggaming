@@ -42,7 +42,7 @@ const Overwatch = () => {
           <div className='min-[1100px]:px-[215px] px-[50px] text-[25px] pt-[30px] text-center'>
             University of California, Santa Cruz | Overwatch Varsity Team
           </div>
-          <div className='container mx-auto py-24 px-8 '>
+          <div className='container mx-auto pb-24 pt-12 px-8 '>
             <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6'>
               {overwatchTeamData.map((teamMember) => (
                 <TeamCard key={teamMember.id} {...teamMember} />
