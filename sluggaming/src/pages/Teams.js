@@ -71,7 +71,7 @@ const Teams = () => {
                   backgroundImage: `url(${process.env.PUBLIC_URL}${cardImages[index]})`,
                 }}
               >
-                {console.log(`Image URL: ${process.env.PUBLIC_URL}${cardImages[index]}`)} 
+                {console.log(`Image URL: ${process.env.PUBLIC_URL}${cardImages[index]}`)}
                 {index === expandedIndex && (
                   <div className='h-full flex flex-col justify-end'>
                     <div className='flex justify-center py-12'>

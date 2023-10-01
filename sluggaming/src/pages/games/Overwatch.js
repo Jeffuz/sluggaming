@@ -1,5 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion';
+import TeamCard from '../../components/Teams Page/TeamCard';
+import overwatchTeamData from '../../data/Overwatch Team.json';
 
 const Overwatch = () => {
   const containerVariants = {
@@ -42,9 +44,9 @@ const Overwatch = () => {
           </div>
           <div className='container mx-auto py-24 px-8 '>
             <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6'>
-              {/* {leagueTeamData.map((teamMember) => (
-                          <TeamCard key={teamMember.id} {...teamMember} />
-                      ))} */}
+              {overwatchTeamData.map((teamMember) => (
+                <TeamCard key={teamMember.id} {...teamMember} />
+              ))}
             </div>
           </div>
         </section>
