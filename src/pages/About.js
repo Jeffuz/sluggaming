@@ -19,7 +19,7 @@ const About = () => {
         </div>
       </section>
       <div className='flex justify-center mt-[-20px] px-[100px] min-[1100px]:px-[150px]'>
-        <iframe src="https://calendar.google.com/calendar/embed?src=ucscesportsclub%40gmail.com&ctz=America%2FLos_Angeles" title="calender" width="100%" height="800"></iframe>
+        <iframe src="https://calendar.google.com/calendar/embed?src=i4on7dqbm7f8dgnp2r4rrima1k%40group.calendar.google.com&ctz=America%2FLos_Angeles" title="calender" width="100%" height="800"></iframe>
       </div>
       <section id="Additional Info">
         <div className='min-[1100px]:px-[150px] px-[100px] flex-col justify-between align-middle py-[75px]'>
