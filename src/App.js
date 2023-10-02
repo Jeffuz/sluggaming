@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import { BrowserRouter, Routes, Route, HashRouter } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import NoPage from './pages/NoPage';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
