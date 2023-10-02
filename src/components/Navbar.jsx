@@ -4,11 +4,11 @@ import { AiOutlineMenu } from "react-icons/ai";
 
 const Navbar = () => {
     let Links = [
-        { name: "About", link: "/#about" },
-        { name: "Staff", link: "/#staff" },
-        { name: "Contact", link: "/#contact" },
-        { name: "Recruitment", link: "/#recruitment" },
-        { name: "Teams", link: "/#teams" },
+        { name: "About", link: "/about" },
+        { name: "Staff", link: "/staff" },
+        { name: "Contact", link: "/contact" },
+        { name: "Recruitment", link: "/recruitment" },
+        { name: "Teams", link: "/teams" },
     ];
 
     let [open, setOpen] = useState(false);
@@ -28,7 +28,7 @@ const Navbar = () => {
                     {
                         Links.map((link) => (
                             <li key={link.name} className='min-[1100px]:ml-[32px] text-xl font-bold tracking-[0.96px] text-[32px] uppercase font-Montserrat min-[1100px]:my-0 my-7'>
-                                <a href={link.link} className='text-white hover:text-[#FFCC04] duration-500'>{link.name}</a>
+                                <Link to={link.link} className='text-white hover:text-[#FFCC04] duration-500'>{link.name}</Link>
                             </li>
                         ))
                     }
