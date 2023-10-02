@@ -4,11 +4,11 @@ import { AiOutlineMenu } from "react-icons/ai";
 
 const Navbar = () => {
     let Links = [
-        { name: "About", link: "/about" },
-        { name: "Staff", link: "/staff" },
-        { name: "Contact", link: "/contact" },
-        { name: "Recruitment", link: "/recruitment" },
-        { name: "Teams", link: "/teams" },
+        { name: "About", link: "/#about" },
+        { name: "Staff", link: "/#staff" },
+        { name: "Contact", link: "/#contact" },
+        { name: "Recruitment", link: "/#recruitment" },
+        { name: "Teams", link: "/#teams" },
     ];
 
     let [open, setOpen] = useState(false);
