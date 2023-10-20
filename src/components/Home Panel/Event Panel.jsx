@@ -16,7 +16,7 @@ const Event_Panel = ({ Title, Quote, Name, Content, Image }) => {
                     <div className='flex flex-col min-[1305px]:w-[50%] bg-[#D9D9D9] justify-center px-12 py-12' id='left-side'>
                         <div className='text-[#00588F] text-5xl pb-12'>{Title}</div>
                         <div className='text-black text-2xl leading-[45px] pb-5'>{Content}</div>
-                        <div className='text-black text-xl leading-[35px]'>{Quote}<br />{Name}</div>
+                        <div className='text-black text-xl leading-[35px]'><span className='italic'>{Quote}</span><br />{Name}</div>
                     </div>
                 </div>
                 <img src={require('../../images/Achivements Page/Yellow Line.png')} alt='Yellow Line' loading="lazy" className='w-full' />

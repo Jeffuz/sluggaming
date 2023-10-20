@@ -29,13 +29,13 @@ const About = () => {
               How often does your student organization meet?
             </h1>
             <p className='text-[20px] pb-[40px]'>
-              We host one in-person general meeting per quarter as the majority of our information is delivered online through Discord.
+              We host one in-person general meeting per month as the majority of our information is delivered online through Discord.
             </p>
             <h1 className='text-[25px] pb-[20px]'>
               What day and time does your student organization generally meet?
             </h1>
             <p className='text-[20px]'>
-              Check our socials for in-houses, watch parties, game nights, and more!
+              General Meetings are every FIRST FRIDAY of the month at 6:30 PM. Check our socials for additional events such as: in-houses, watch parties, game nights, and more!
             </p>
           </div>
         </div>
