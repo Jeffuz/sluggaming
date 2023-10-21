@@ -4,7 +4,7 @@ const About = () => {
 
   return (
     <div className='font-Montserrat'>
-      <img src={require('../images/About Page/Banner.png')} alt='home-page-banner' loading="lazy" />
+      <img src={require('../images/About Page/Banner.png')} alt='home-page-banner' loading="lazy" className='pt-20'/>
       <section id="History of the Program">
         <div className='min-[1100px]:px-[150px] px-[100px] flex-col justify-between align-middle py-[100px]'>
           <p className='text-[#00588F] text-[60px] pb-[50px] '>History of the Program</p>
