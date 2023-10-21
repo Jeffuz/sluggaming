@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sluggaming/static/css/main.1e94f65e.css",
-    "main.js": "/sluggaming/static/js/main.6a8e84f2.js",
+    "main.css": "/sluggaming/static/css/main.2e369ba0.css",
+    "main.js": "/sluggaming/static/js/main.b908feb1.js",
     "static/js/787.68248a2b.chunk.js": "/sluggaming/static/js/787.68248a2b.chunk.js",
     "static/media/Banner.png": "/sluggaming/static/media/Banner.7ab8b6e759aa92cddb8d.png",
     "static/media/DIsplay.png": "/sluggaming/static/media/DIsplay.e1b0357fe7223e76ff55.png",
@@ -58,12 +58,12 @@
     "static/media/LoL Logo.png": "/sluggaming/static/media/LoL Logo.abea5f10f034fda5b1ac.png",
     "static/media/Overwatch Logo.png": "/sluggaming/static/media/Overwatch Logo.57ed94e8754a46a370d3.png",
     "index.html": "/sluggaming/index.html",
-    "main.1e94f65e.css.map": "/sluggaming/static/css/main.1e94f65e.css.map",
-    "main.6a8e84f2.js.map": "/sluggaming/static/js/main.6a8e84f2.js.map",
+    "main.2e369ba0.css.map": "/sluggaming/static/css/main.2e369ba0.css.map",
+    "main.b908feb1.js.map": "/sluggaming/static/js/main.b908feb1.js.map",
     "787.68248a2b.chunk.js.map": "/sluggaming/static/js/787.68248a2b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e94f65e.css",
-    "static/js/main.6a8e84f2.js"
+    "static/css/main.2e369ba0.css",
+    "static/js/main.b908feb1.js"
   ]
 }
