@@ -18,7 +18,7 @@ const Home = () => {
                             The Main Hub for Esports at UC Santa Cruz
                         </div>
                     </div>
-                </div>s
+                </div>
             </section>
 
             <section className='m-8'>

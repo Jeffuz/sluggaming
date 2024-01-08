@@ -14,7 +14,7 @@ const Staff = () => {
         <div className='flex justify-center max-[1100px]:px-[50px] pt-3'>
           <img src={require('../images/Achivements Page/Yellow Line.png')} alt='Yellow Line' loading="lazy" />
         </div>
-        <div className='container mx-auto px-8 sm:text-2xl text-lg pt-3 text-center'>
+        <div className='container mx-auto px-8 sm:text-2xl text-lg py-3 text-center'>
           Overseeing the backbone of Slug Gaming, the Executive Board arranges club meetings, sign-offs on official paperwork, and manages all the background tasks needed to keep the club running.
         </div>
         <div className='container mx-auto p-8'>

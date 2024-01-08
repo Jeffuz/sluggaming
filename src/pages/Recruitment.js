@@ -11,7 +11,7 @@ const Recruitment = () => {
         <div className='flex justify-center max-[1100px]:px-12 pt-3'>
           <img src={require('../images/Achivements Page/Yellow Line.png')} alt='Yellow Line' loading="lazy" />
         </div>
-        <div className='container mx-auto px-8 sm:text-2xl text-lg pt-3 text-center text-slate-800'>
+        <div className='container mx-auto px-8 sm:text-2xl text-lg py-3 text-center text-slate-800'>
           Slug Esports is always looking out for new talent to join our teams for our collegiate games! If you are interested, here’s some basic information to help make this process easier.
         </div>
       </section>
@@ -25,7 +25,7 @@ const Recruitment = () => {
             <li>Learn more about <u><a href='https://admissions.ucsc.edu/'>UCSC Admissions</a></u></li>
           </ul>
           <li>Minimum Rank for each game: (Peak of last season)</li>
-          <ul className='list-disc list-inside pl-[20px]'>
+          <ul className='list-disc list-inside pl-5'>
             <li>League of Legends: Diamond</li>
             <li>Valorant: Immortal</li>
             <li>Overwatch: Grandmaster</li>
