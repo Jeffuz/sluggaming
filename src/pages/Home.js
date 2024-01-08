@@ -21,8 +21,8 @@ const Home = () => {
                 </div>
             </section>
 
-            <section className='min-[1305px]:pb-16 pb-8'>
-                <div className=''>
+            <section className='m-8'>
+                <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-8'>
                     {homePageData.map((homeDetail) => (
                         <Event_Panel key={homeDetail.id} {...homeDetail} />
                     ))}
