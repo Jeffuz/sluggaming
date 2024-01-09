@@ -5,20 +5,20 @@ import { Link } from 'react-router-dom';
 const Contact = () => {
   return (
     <div className='font-Montserrat min-[1100px]:mx-[215px] sm:mx-20 mx-6'>
-      <section id='Contact Us' className='leading-[50px] pt-36'>
+      <section id='Contact Us' className='leading-[50px] sm:pt-64 pt-36'>
         <div className='text-[#00588F] text-[40px]'>
           Contact Us
         </div>
-        <div className='text-black text-[25px]'>
+        <div className='text-black sm:text-2xl text-lg'>
           Have a question or something to share? We're here to listen!
           Drop us a message through the contact form below and let's chat.
         </div>
       </section>
       <section id='Social' className='mt-[30px]'>
-        <div className='text-[40px] leading-[70px]'>
+        <div className='text-3xl leading-10'> 
           Get Social With Us!
         </div>
-        <div className='flex text-[#228BE6] mt-5 flex-col sm:flex-row gap-5'>
+        <div className='flex text-[#228BE6] flex-col sm:flex-row gap-5'>
           <span className='flex gap-5'>
             <Link to={"https://www.instagram.com/sluggamingucsc/?hl=en"}>
               <FaInstagram className='w-12 h-12 max-[600px]:w-9' />
@@ -46,8 +46,8 @@ const Contact = () => {
           </span>
         </div>
       </section>
-      <section id='Contact Information' className='pt-6'>
-        <div className='text-black text-[40px]'>
+      <section id='Contact Information' className='mt-5'>
+        <div className='text-3xl leading-10'>
           Contact Information
         </div>
         <div className='text-black text-5'>
