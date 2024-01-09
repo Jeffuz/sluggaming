@@ -1,11 +1,6 @@
 import React from 'react'
-import { motion } from 'framer-motion';
 
 const Apex = () => {
-    const containerVariants = {
-        hidden: { opacity: 0, y: 50 },
-        visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeInOut" } },
-    };
     return (
         <div>
             <section className=' pt-[87px] flex justify-center' id='Banner'>
@@ -17,7 +12,7 @@ const Apex = () => {
                         alt="Apex Banner"
                     />
                 </div>
-                <div className='absolute pt-5'>
+                <div className='absolute pt-5 sm:w-max w-[80%]'>
                     <img
                         src={require(`../../images/Team Page/Esports Banner/Apex Logo.png`)}
                         loading="lazy"
@@ -25,17 +20,12 @@ const Apex = () => {
                     />
                 </div>
             </section>
-            <motion.div
-                variants={containerVariants}
-                initial="hidden"
-                animate="visible"
-            >
-                <section className='pt-[275px] font-Montserrat'>
+                <section className='pt-80 font-Montserrat'>
                     <div id='varsity'>
-                        <div className='flex justify-center min-[1100px]:text-[60px] text-[50px] text-[#00588F] pt-[50px]'>
+                        <div className='flex justify-center sm:text-5xl text-3xl text-[#00588F]'>
                             UCSC Wildfires
                         </div>
-                        <div className='flex justify-center mt-[-10px] max-[1100px]:px-[50px] max-[1100px]:pt-[20px]'>
+                        <div className='flex justify-center max-[1100px]:px-[50px] pt-3'>
                             <img src={require('../../images/Achivements Page/Yellow Line.png')} alt='Yellow Line' loading="lazy" />
                         </div>
                         <div className='min-[1100px]:px-[215px] px-[50px] text-[25px] pt-[30px] text-center'>
@@ -50,10 +40,10 @@ const Apex = () => {
                         </div>
                     </div>
                     <div id='junior varsity'>
-                        <div className='flex justify-center min-[1100px]:text-[60px] text-[50px] text-[#00588F] pt-[50px]'>
+                        <div className='flex justify-center sm:text-5xl text-3xl text-[#00588F]'>
                             UCSC Wolfpack
                         </div>
-                        <div className='flex justify-center mt-[-10px] max-[1100px]:px-[50px] max-[1100px]:pt-[20px]'>
+                        <div className='flex justify-center max-[1100px]:px-[50px] pt-3'>
                             <img src={require('../../images/Achivements Page/Yellow Line.png')} alt='Yellow Line' loading="lazy" />
                         </div>
                         <div className='min-[1100px]:px-[215px] px-[50px] text-[25px] pt-[30px] text-center'>
@@ -68,7 +58,6 @@ const Apex = () => {
                         </div>
                     </div>
                 </section>
-            </motion.div>
         </div>
     )
 }
