@@ -17,12 +17,13 @@ const Navbar = () => {
     };
     return (
         <div className='fixed w-full shadow-lg z-10'>
-            <div className='bg-[#00588F] items-center justify-between min-[1100px]:flex min-[1100px]:px-10 px-7'>
+            <div className='bg-[#00588F] items-center justify-between min-[1100px]:flex min-[1100px]:px-10 px-5'>
                 <div className='font-bold text-[32px] tracking-[0.96px] cursor-pointer flex items-center text-[#FFCC04] font-Montserrat uppercase'>
                     <Link to={"/"} className='mr-5'>
-                        <img src={require('../images/Navigation Component/Slug.png')} alt='slug-logo' onClick={closeNavbar}></img>
+                        {/* <img src={require('../images/Navigation Component/Slug.png')} alt='slug-logo' onClick={closeNavbar}></img> */}
+                        <img src={require('../images/Navigation Component/SLUGS.png')} alt='slug-logo' onClick={closeNavbar} className='w-[100px]'></img>
                     </Link>
-                    <Link to={"/"} className=''> Slug Gaming </Link>
+                    <Link to={"/"} className='sm:block hidden'> Slug Gaming </Link>
                 </div>
                 <div onClick={() => setOpen(!open)} className='text-3xl text-[#FFCC04] absolute right-8 top-7 cursor-pointer min-[1100px]:hidden'>
                     <AiOutlineMenu />
