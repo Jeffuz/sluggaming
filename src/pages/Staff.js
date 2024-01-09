@@ -45,13 +45,13 @@ const Staff = () => {
       </section>
       <section id='Team Leads' className='pb-[50px]'>
         <div className='flex justify-center sm:text-5xl text-3xl text-[#00588F]'>
-          Team Leads
+          Staff
         </div>
         <div className='flex justify-center max-[1100px]:px-[50px] pt-3'>
           <img src={require('../images/Achivements Page/Yellow Line.png')} alt='Yellow Line' loading="lazy" />
         </div>
         <div className='container mx-auto px-8 sm:text-2xl text-lg pt-3 text-center'>
-          Dedicated to fostering a thriving gaming community, Team Leads work to keep the community informed on the Esports scene through live streams, social media updates, and engaging social gaming nights.        </div>
+          Dedicated to fostering a thriving gaming community, staff directors work to keep the community informed on the Esports scene through live streams, social media updates, and engaging social gaming nights.        </div>
         <div className='container mx-auto p-8'>
           <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6'>
             {teamLeadsData.map((staffMember) => (

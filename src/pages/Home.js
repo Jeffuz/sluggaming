@@ -11,7 +11,8 @@ const Home = () => {
                         <img src={require('../images/Home Page/Base Banner.png')} alt='home-page-banner' className='h-full object-cover w-full' loading="lazy" />
                     </div>
                     <div className='absolute h-screen flex flex-col justify-center px-10'>
-                        <div className='min-[1250px]:text-7xl min-[1060px]:text-6xl min-[860px]:text-5xl min-[665px]:text-4xl min-[570px]:text-3xl min-[350px]:text-xl text-lg text-white font-akira-expanded justify-center darker-drop-shadow'>
+                        {/* <div className='min-[1250px]:text-7xl min-[1060px]:text-6xl min-[860px]:text-5xl min-[665px]:text-4xl min-[570px]:text-3xl min-[350px]:text-xl text-lg text-white font-akira-expanded justify-center darker-drop-shadow'> */}
+                        <div className='xl:text-7xl lg:text-5xl sm:text-4xl min-[400px]:text-2xl min-[390px]:text-xl text-lg text-white font-akira-expanded justify-center darker-drop-shadow'>
                             <span>UNITE,</span>&nbsp;<span>PLAY,</span><span className='text-[#FFCC04]'>&nbsp;CONQUER</span>.
                         </div>
                         <div className="min-[1250px]text-4xl min-[665px]:text-4xl min-[570px]:text-2xl text-xl text-white font-kenyan-coffee flex justify-center darker-drop-shadow leading-[50px] tracking-wider">

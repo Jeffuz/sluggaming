@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import { MdKeyboardArrowDown } from "react-icons/md";
 
 const About = () => {
@@ -12,7 +12,7 @@ const About = () => {
   const toggleQuestion2 = () => {
     setOpenQuestion2(!isOpenQuestion2);
   };
-  
+
   return (
     <div className='font-Montserrat'>
       <img src={require('../images/About Page/Banner.png')} alt='home-page-banner' loading="lazy" className='pt-20' />
@@ -34,15 +34,17 @@ const About = () => {
       </div>
       <section id="Additional Info">
         <div className='flex-col justify-between m-8'>
-          <div className='text-[#00588F] font-bold text-4xl mb-8'>Additional Info</div>
+          <div className='text-[#00588F] font-bold text-4xl mb-8'>
+            About
+          </div>
           <div className='text-black'>
             <div className='hover:bg-slate-100 border cursor-pointer' onClick={toggleQuestion1}>
               <button className='px-8 py-4 font-medium text-slate-800'>
-                  <div>How often does your student organization meet?</div>
+                <div>How often does your student organization meet?</div>
               </button>
               {isOpenQuestion1 && (
                 <div className='px-8 pb-4'>
-                  We host one in-person general meeting per month as the majority of our information is delivered online through Discord.
+                  We meet monthly in-person for a community game night and host quarterly intramurals for each game for members to play together in a mini Slug Gaming Tourney.
                 </div>
               )}
             </div>
@@ -52,7 +54,7 @@ const About = () => {
               </button>
               {isOpenQuestion2 && (
                 <div className='px-8 pb-4'>
-                  General Meetings are every FIRST FRIDAY of the month at 6:30 PM. Check our socials for additional events such as: in-houses, watch parties, game nights, and more!
+                  Community Game Nights are usually on FRIDAYS of the month at 6:30 PM. Check our socials for additional events such as: in-houses, watch parties, game nights, and more!
                 </div>
               )}
             </div>
